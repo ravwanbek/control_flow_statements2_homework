@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: codeschooluz/elif_statements_test
+          repository: codeschooluz/control_flow_statements2_test
           token: ${{secrets.TEST_KEY}}
           path: test
       - name: Install dependencies
